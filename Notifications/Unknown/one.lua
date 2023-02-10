@@ -78,3 +78,5 @@ function notify(title, description, time, time_before_destroy)
     
 
 end
+
+return GUI
