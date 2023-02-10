@@ -78,6 +78,3 @@ function notify(title, description, time, time_before_destroy)
     
 
 end
-
-
-notify("1", "2", 1, 1)
