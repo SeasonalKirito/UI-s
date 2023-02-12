@@ -1,7 +1,7 @@
 # Starting
 Code to load -
 ```lua
-local MacNotify = loadstring(game:HttpGet('https://raw.githubusercontent.com/SeasonalKirito/UI-s/main/Notifications/MacNotify.folder/MacNotify.lua'))()
+local MacNotify = loadstring(game:HttpGet('https://raw.githubusercontent.com/SeasonalKirito/UI-s/main/Notifications/MacNotify.folder/MacNotifyMain.lua'))()
 
 notify({
 	title = "TITLE",
