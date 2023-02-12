@@ -112,4 +112,8 @@ function notify(notifySettings)
 		".5",
 		false
 	)
+	
+	wait(3)
+	
+	MacNotify["1"]:Destroy()
 end
