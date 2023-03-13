@@ -19,7 +19,7 @@ end
 
 
 
-function Main:Notify(settings)
+function Notify(settings)
 
     for i,v in pairs(CoreGui:GetChildren()) do
         if v.Name == "Notification" and v:IsA("ScreenGui") then
@@ -120,11 +120,11 @@ end
 
 --[[
 
-Main:Notify({
+Notify({
 	Title = "Title",
 	Description = "Description",
-    Time = 3,
-    Transparency = 0.4
+	Time = 3,
+	Transparency = 0.4
 })
 
 ]]--
