@@ -7,8 +7,8 @@ local Main = loadstring(game:HttpGet('https://raw.githubusercontent.com/Seasonal
 Notify({
 	Title = "Title",
 	Description = "Description",
-  Time = 3,
-  Transparency = 0.4
+    Time = 3,
+    Transparency = 0.4
 })
 ```
 ![image](https://raw.githubusercontent.com/SeasonalKirito/UI-s/main/Notifications/Notification.lua/RobloxPlayerBeta_DH3LrKESZs.png)
