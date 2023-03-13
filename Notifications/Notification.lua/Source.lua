@@ -117,3 +117,14 @@ function Main:Notify(settings)
 	return Main
 
 end
+
+--[[
+
+Main:Notify({
+	Title = "Title",
+	Description = "Description",
+    Time = 3,
+    Transparency = 0.4
+})
+
+]]--
