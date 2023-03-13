@@ -2,9 +2,9 @@
 # Starting
 Code to load -
 ```lua
-local Main = loadstring(game:HttpGet('https://raw.githubusercontent.com/SeasonalKirito/UI-s/main/Notifications/Notification.lua/MainSource.lua'))()
+local Main = loadstring(game:HttpGet('https://raw.githubusercontent.com/SeasonalKirito/UI-s/main/Notifications/Notification.lua/SourceMain.lua'))()
 
-Notify({
+Main:notify({
 	Title = "Title",
 	Description = "Description",
     Time = 3,
